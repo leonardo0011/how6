@@ -1,0 +1,57 @@
+<div class="bg_telas">
+<section>
+    <h1 class="title1">Lista de cadastros</h1>
+    {{!-- <hr>    
+    {{#each dado}}
+    <p>Id: {{this.id}}</p>
+    <p>Id_prod: {{this.id_prod}}</p>
+    <p>Nome: {{this.nome}}</p>
+    <p>Descricao: {{this.descricao}}</p>
+    <p>Preco: {{this.preco}}</p>
+    <p>Quantidade: {{this.quantidade}}</p>
+    <p>Valor_estoque: {{this.valor_estoque}}</p>
+    <hr>
+    {{/each}} --}}
+
+ {{!-- {{#each dado}}
+    <ul class="lista-es">
+        <li>Id: <br> {{this.id}}</li>
+        <li>Id_prod: <br> {{this.id_prod}}</li>
+        <li>Nome: <br> {{this.nome}}</li>
+        <li>Descricao: <br> {{this.descricao}}</li>
+        <li>Preco: <br> {{this.preco}}</li>
+        <li>Quantidade: <br> {{this.quantidade}}</li>
+        <li>Valor_estoque: <br> {{this.valor_estoque}}</li>
+    </ul>
+ {{/each}} --}}
+
+ <table class="lista-es">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Código Produto</th>
+            <th>Nome</th>
+            <th>Descricão</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Valor do estoque</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each dado}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.id_prod}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.descricao}}</td>
+            <td>{{this.preco}}</td>
+            <td>{{this.quantidade}}</td>
+            <td>{{this.valor_estoque}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+
+    </div>
+</section>

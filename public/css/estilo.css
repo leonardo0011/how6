@@ -1,0 +1,233 @@
+body {
+    background-color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+header {
+    background-color: #3d1d56;
+    height: 73px;
+}
+
+h1 {
+    color: #6e6e6e;
+    font-size: 30px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.hhead {
+    font-size: 50px;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 70;
+    text-align: center;
+    padding: 0 0 0 10px;
+    color: white;
+    background-color: #2b163b;
+    height: 73px;
+    width: 13%;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: absolute;
+    background-color: #3d1d56;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: #77449E;
+}
+
+.bg_telas {
+    margin: 50px 0 0 200px;
+}
+
+.form input {
+    width: 75%;
+    border: solid 1px rgb(219, 219, 219);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+
+.title1 {
+    margin: 0 0 23px 20px;
+}
+
+#enviar {
+    width: 100px;
+    height: 45px;
+    float: right;
+    margin-right: 24%;
+    background-color: #693E8A;
+    color: white;
+    border-radius: 12px;
+    border: 0;
+    padding: 4px;
+    font-size: 17px;
+}
+
+#enviar:hover {
+    background-color: #361b4d;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*tirar setas numeros*/
+
+/* CSS NORMAL */
+
+/* .bg_cadprod {
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 30px;
+    width: fit-content;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 10%;
+} */
+
+/* .bg_cadprod input {
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.bgCad_prod button {
+    padding: 6px;
+
+} */
+
+button:hover {
+    background-color: #77449e;
+    color: white;
+    border: none;
+}
+
+.bgCad_estoque {
+    text-align: center;
+    border: 2px black solid;
+    padding: 30px;
+    width: fit-content;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 10%;
+}
+
+.bgCad_estoque input {
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.bgCad_estoque button {
+    padding: 6px;
+
+}
+
+/* .lista-es {
+
+    background-color: white;
+    width: 89%;
+    height: 421px;
+    border: solid 2.7px;
+    border-radius: 12px;
+    margin: 53px 10% 0 5px;
+    padding: 100px 100px 100px 35px;
+
+}
+
+.lista-es li {
+    display: inline-block;
+    margin: 8px;
+} */
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+.lista-es {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lista-es thead {
+    background-color: #4b0082;
+    color: white;
+}
+
+.lista-es th {
+    font-weight: bold;
+}
+
+.lista-es tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+}
+
+
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(20% - 1px);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+}
