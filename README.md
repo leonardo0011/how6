@@ -1,5 +1,5 @@
 Npm init -y <br>
-Npm install mysql
-Npm install handlebars
-Npm install express-handlebars
-Npm install express express-handlebars
+Npm install mysql <br>
+Npm install handlebars <br>
+Npm install express-handlebars <br>
+Npm install express express-handlebars <br>
