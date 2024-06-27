@@ -1,7 +1,5 @@
-Trabalho de banco de Dados - ADS How VI.
-
-Comnandos de instalação para terminal.
-
+Trabalho de banco de Dados - ADS How VI. <br>
+Comandos de instalação para terminal.<br>
 Npm init -y <br>
 Npm install mysql <br>
 Npm install handlebars <br>
